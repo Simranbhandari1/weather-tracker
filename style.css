@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     width: 98vw;
-    background: linear-gradient(30deg, rgb(114, 105, 107),rgb(165, 187, 190));
+        background: linear-gradient(135deg, #000000, #121414);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,12 +17,14 @@ body{
     text-align: center;
     margin-top: 40px;
     font-size: 50px;
+    color: white;
     
 }
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #0a2b77, #0b0437);
+    border: 1px solid black;
+     background: linear-gradient(30deg, rgb(23, 116, 100),rgb(111, 215, 166));
     color: #fff;
     margin-top: 20px;
     border-radius: 20px;
